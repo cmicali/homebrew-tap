@@ -1,9 +1,9 @@
 cask "vibe" do
   arch arm: "arm64", intel: "universal"
 
-  version "1.14"
-  sha256 arm:   "5b0d88da19794cbc6a57ab099a8cf98087f6cfcbbf5eedef43088ecc6de2692f",
-         intel: "8fd0990bf21135ddc4d4c10f3a7ace24297be8b7d3390cb251f2565f3cb58a19"
+  version "1.15"
+  sha256 arm:   "746bfd046f8f83a73d499af71011f565d5974e98965ac6876ef474a338fdf401",
+         intel: "5d0233690b4e22e3faa8deaa9ef88e91dc2edf830ba8afc91db6c0a37e96f21b"
 
   url "https://github.com/cmicali/vibe/releases/download/v#{version}/Vibe-macOS-#{arch}-#{version}.dmg"
   name "Vibe"
